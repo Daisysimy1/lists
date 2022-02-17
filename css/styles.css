@@ -1,0 +1,48 @@
+img{
+    border: crimson 2px solid;
+    border-radius: 15px;
+}
+/*img:hover{*/
+/*    color: lightblue;*/
+/*}*/
+body{
+    margin: 0;
+    padding: 0;
+}
+.body1{
+    background-color: aqua;
+}
+.video1, .audio1{
+    border: indigo 2px solid;
+    border-radius: 30px;
+}
+.main-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: lightblue;
+}
+.list-item{
+    float: left;
+}
+.list-item .item{
+    display: block;
+    padding: 14px 16px;
+    font-size: 16px;
+    color: crimson;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.list-item .item:hover{
+    color: black;
+    font-weight: bold;
+    background-color: darkorchid;
+
+}
+#active{
+    color: black;
+    font-weight: bold;
+    background-color: darkorchid;
+
+}
